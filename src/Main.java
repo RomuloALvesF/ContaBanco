@@ -6,14 +6,14 @@ public class Main {
 
         System.out.println("Por favor, digite o numero da agência!");
         int numero = scanner.nextInt();
-        scanner.nextLine(); // Consome a nova linha pendente
+        scanner.nextLine(); 
 
         System.out.println("Por favor, digite a agência!");
         String agencia = scanner.next();
-        scanner.nextLine(); // Consome a nova linha pendente
+        scanner.nextLine(); 
 
         System.out.println("Por favor, digite seu nome!");
-        String nome = scanner.nextLine(); // Lê a linha inteira
+        String nome = scanner.nextLine(); 
 
         System.out.println("Por favor, digite o saldo!");
         float saldo = scanner.nextFloat();
